@@ -58,6 +58,16 @@ namespace QuickSort_UnitTest
             qSort.quickSort(array, 0, array.Length - 1);
             CollectionAssert.AreEqual(sortedArray, array);
         }
+
+        [TestMethod]
+        public void TestMethod_CheckSortArrayWithDoubleElements()
+        {
+            double[] array = new double[] { 2.35, 1.2, -0.5, 3.4, 2.1, 3.2 };
+            double[] sortedArray = new double[] {-0.5, 1.2, 2.1, 2.35, 3.2, 3.4 };
+            var qSort = new QuickSort<double>();
+            qSort.quickSort(array, 0, array.Length - 1);
+            CollectionAssert.AreEqual(sortedArray, array);
+        }
     }
     
     public class MyBenchmark
