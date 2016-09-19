@@ -1,0 +1,24 @@
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\x86\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\x86\msdia140.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\amd64\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\amd64\msdia140.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\QuickSort.exe.config
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\QuickSort.exe
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\QuickSort.pdb
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\Microsoft.Diagnostics.Tracing.TraceEvent.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\bin\Debug\Microsoft.Diagnostics.Tracing.TraceEvent.xml
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\obj\Debug\QuickSort.exe
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\obj\Debug\QuickSort.pdb
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort\obj\Debug\QuickSort.csprojResolveAssemblyReference.cache
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\QuickSort.exe.config
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\obj\Debug\QuickSort.exe
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\obj\Debug\QuickSort.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\x86\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\x86\msdia140.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\amd64\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\amd64\msdia140.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\QuickSort.exe
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\QuickSort.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\Microsoft.Diagnostics.Tracing.TraceEvent.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\bin\Debug\Microsoft.Diagnostics.Tracing.TraceEvent.xml
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort\obj\Debug\QuickSort.csprojResolveAssemblyReference.cache

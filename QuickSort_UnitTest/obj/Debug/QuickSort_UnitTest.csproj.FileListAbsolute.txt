@@ -1,0 +1,26 @@
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\obj\Debug\QuickSort_UnitTest.csprojResolveAssemblyReference.cache
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\x86\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\x86\msdia140.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\amd64\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\amd64\msdia140.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\QuickSort_UnitTest.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\QuickSort_UnitTest.pdb
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\BenchmarkDotNet.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\QuickSort.exe
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\QuickSort.pdb
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\bin\Debug\BenchmarkDotNet.xml
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\obj\Debug\QuickSort_UnitTest.dll
+E:\lAB\5 семестр\СПП\Лабораторная работа №1\QuickSort\QuickSort_UnitTest\obj\Debug\QuickSort_UnitTest.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\QuickSort_UnitTest.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\QuickSort_UnitTest.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\BenchmarkDotNet.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\QuickSort.exe
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\QuickSort.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\BenchmarkDotNet.xml
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\obj\Debug\QuickSort_UnitTest.csprojResolveAssemblyReference.cache
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\obj\Debug\QuickSort_UnitTest.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\obj\Debug\QuickSort_UnitTest.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\x86\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\x86\msdia140.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\amd64\KernelTraceControl.dll
+E:\lAB\5 семестр\СПП\MPP_LAB1\QuickSort_UnitTest\bin\Debug\amd64\msdia140.dll
