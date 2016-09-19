@@ -5,28 +5,32 @@ using System.Text;
 
 namespace QuickSort
 {
-    public class QuickSort
+    public class QuickSort<T>
     {
-        private QuickSortComparer<int> comparer;
+        private QuickSortComparer<T> comparer;
+        private QuickSortComparer<int> comparerInt;
 
         public QuickSort()
         {
-            comparer = new QuickSortComparer<int>();
+            comparer = new QuickSortComparer<T>();
+            comparerInt=new QuickSortComparer<int>();
         }
 
-        public void quickSort(int[] array,int minArrayIndex,int maxArrayIndex)
+        public void quickSort(T[] array,int minArrayIndex,int maxArrayIndex)
         {
-            int temp;
-            int x = array[minArrayIndex + (maxArrayIndex - minArrayIndex) / 2];
+            if (comparerInt.Compare(minArrayIndex, maxArrayIndex) > 0)
+                return;
+            T temp;
+            T x = array[minArrayIndex + (maxArrayIndex - minArrayIndex) / 2];
             int i = minArrayIndex;
             int j = maxArrayIndex;
-            while (i <= j)
+            while (comparerInt.Compare(i,j)<=0)
             {
-                while (array[i] < x)
+                while (comparer.Compare(array[i],x)<0)
                     i++;
-                while (array[j] > x)
+                while (comparer.Compare(array[j], x) > 0)
                     j--;
-                if (i <= j)
+                if (comparerInt.Compare(i, j) <= 0)
                 {
                     temp = array[i];
                     array[i] = array[j];
@@ -35,9 +39,9 @@ namespace QuickSort
                     j--;
                 }
             }
-            if (i < maxArrayIndex)
+            if (comparerInt.Compare(i,maxArrayIndex)<0)
                 quickSort(array, i, maxArrayIndex);
-            if (minArrayIndex < j)
+            if (comparerInt.Compare(minArrayIndex,j) < 0)
                 quickSort(array, minArrayIndex, j);
          }
     }

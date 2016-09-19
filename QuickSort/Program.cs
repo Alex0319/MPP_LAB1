@@ -14,7 +14,7 @@ namespace QuickSort
             {
                 int[] array = new int[countOfElements];
                 Random rand = new Random();
-                QuickSort qSort = new QuickSort();
+                var qSort = new QuickSort.QuickSort<int>();
                 for (int i = 0; i < countOfElements;i++)
                     array[i] = rand.Next(-100, 100);
                 qSort.quickSort(array, 0, countOfElements - 1);
@@ -23,6 +23,5 @@ namespace QuickSort
             }
             Console.ReadLine();
         }
-
     }
 }
