@@ -78,7 +78,6 @@ namespace QuickSort_UnitTest
         }
     }
 
-    [Config("columns=Max")]
     public class BenchMark
     {
        [Benchmark(Description = "DefaultSorted")]
