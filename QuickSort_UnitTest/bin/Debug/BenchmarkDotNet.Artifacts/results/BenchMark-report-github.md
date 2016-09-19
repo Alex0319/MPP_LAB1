@@ -1,0 +1,12 @@
+```ini
+
+BenchmarkDotNet=v0.9.7.0
+OS=Microsoft Windows NT 6.3.9600.0
+Processor=Intel(R) Core(TM) i5-4200U CPU 1.60GHz, ProcessorCount=4
+Frequency=2240909 ticks, Resolution=446.2475 ns, Timer=TSC
+HostCLR=DNX MS.NET 4.0.30319.42000, Arch=32-bit RELEASE
+JitModules=clrjit-v4.6.1080.0
+
+
+There are no benchmarks found 
+

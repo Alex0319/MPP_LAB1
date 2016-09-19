@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using QuickSort;
-using BenchmarkDotNet;
+using BenchmarkDotNet.Diagnosers;
+using BenchmarkDotNet.Running;
 using BenchmarkDotNet.Attributes;
 
 namespace QuickSort_UnitTest
@@ -68,14 +70,31 @@ namespace QuickSort_UnitTest
             qSort.quickSort(array, 0, array.Length - 1);
             CollectionAssert.AreEqual(sortedArray, array);
         }
-    }
-    
-    public class MyBenchmark
-    {
-        [Benchmark]
-        public void Hello()
+
+        [TestMethod]
+        public void TestSpeed()
         {
- 
+            BenchmarkRunner.Run<BenchMark>();
+        }
+    }
+
+    [Config("columns=Max")]
+    public class BenchMark
+    {
+       [Benchmark(Description = "DefaultSorted")]
+        public static void CallDefaultSort()
+        {
+            int[] array = new int[] { 20, -10, 15, 32, 11, 7 };
+            var qSort = new QuickSort<int>();
+            qSort.quickSort(array, 0, array.Length - 1);
+        }
+
+        [Benchmark(Description = "CustomSorted")]
+        public static void CallOptimQuickSort()
+        {
+            int[] array = new int[] { 20, -10, 15, 32, 11, 7 };
+            var qSort = new OptimQuickSort<int>();
+            qSort.quickSort(array, 0, array.Length - 1);
         }
     }
 }

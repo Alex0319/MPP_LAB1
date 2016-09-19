@@ -1,0 +1,30 @@
+BenchmarkDotNet requires dotnet cli toolchain to be installed, benchmark BenchMark_CallDefaultSort will not be executed
+BenchmarkDotNet requires dotnet cli toolchain to be installed, benchmark BenchMark_CallOptimQuickSort will not be executed
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+
+// Validating benchmarks:
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\BenchMark-report.csv
+  BenchmarkDotNet.Artifacts\results\BenchMark-report-github.md
+  BenchmarkDotNet.Artifacts\results\BenchMark-report.html
+
+// * Detailed results *
+Total time: 00:00:00 (0 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.9.7.0
+OS=Microsoft Windows NT 6.3.9600.0
+Processor=Intel(R) Core(TM) i5-4200U CPU 1.60GHz, ProcessorCount=4
+Frequency=2240909 ticks, Resolution=446.2475 ns, Timer=TSC
+HostCLR=DNX MS.NET 4.0.30319.42000, Arch=32-bit RELEASE
+JitModules=clrjit-v4.6.1080.0
+
+
+There are no benchmarks found 
+
+
+// ***** BenchmarkRunner: End *****
