@@ -39,6 +39,25 @@ namespace QuickSort_UnitTest
             CollectionAssert.AreEqual(sortedArray, array);
         }
 
+        [TestMethod]
+        public void TestMethod_CheckSortArrayWithCharElements()
+        {
+            char[] array = new char[] { 'b', 'a', 'd', 'c', 'f', 'e' };
+            char[] sortedArray = new char[] { 'a', 'b', 'c', 'd', 'e', 'f' };
+            var qSort = new QuickSort<char>();
+            qSort.quickSort(array, 0, array.Length - 1);
+            CollectionAssert.AreEqual(sortedArray, array);
+        }
+
+        [TestMethod]
+        public void TestMethod_CheckSortArrayWithStringElements()
+        {
+            string[] array = new string[] { "gdsjh", "euyiewr", "gsdjh", "true", "false", "skdkdj" };
+            string[] sortedArray = new string[] { "euyiewr","false", "gdsjh", "gsdjh", "skdkdj", "true" };
+            var qSort = new QuickSort<string>();
+            qSort.quickSort(array, 0, array.Length - 1);
+            CollectionAssert.AreEqual(sortedArray, array);
+        }
     }
     
     public class MyBenchmark
